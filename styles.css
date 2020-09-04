@@ -48,13 +48,11 @@ blockquote {
 blockquote:before { content: '"'; }
 blockquote:after { content: '"'; }
 
-#lolcat {
-  margin: 0 auto;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 10px;
-  border:10px solid #222;
+.time-events-wrapper {
+  display: flex;
+  flex-direction: column;
 }
+
 
 label {
   letter-spacing: 2px;
@@ -62,15 +60,17 @@ label {
 }
 
 #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
-  
-  margin: 0 20px;
+  width: auto;
+  margin: 1em auto 1.5em;
   padding: 10px;
+  text-align: center;
 }
 
 
 #partyTimeButton {
-  background-color: #222;
+  background-color: #0A8DAB;
   width: 300px;
+  margin: 0 auto;
   font-family: 'Bungee', cursive;
   font-size: 18px;
   color: #fff;
