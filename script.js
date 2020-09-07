@@ -1,3 +1,4 @@
+//Syncing up time to correct hour of the day
 var time = new Date().getHours();
 
 // Key milestone times of the day
